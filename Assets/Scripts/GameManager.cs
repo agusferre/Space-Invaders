@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+    public Player player;
     public Invaders invaders;
     public int score;
     public int lives;
@@ -11,5 +12,10 @@ public class GameManager : MonoBehaviour
     }
 
     private void Update() {
+
+    }
+
+    public void killPlayer() {
+        player.Kill();
     }
 }

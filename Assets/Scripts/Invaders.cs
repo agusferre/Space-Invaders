@@ -12,8 +12,9 @@ public class Invaders : MonoBehaviour
     public Invader invader1;
     public Invader invader2;
     public Invader invader3;
+    public bool peace = false;
     public GameObject target;
-    private int invadersSpeed = 1;
+    public int invadersSpeed = 1;
     private float shootingSpeed = 1f;
     private int rightColumn = 10;
     private int leftColumn = 0;
@@ -28,7 +29,7 @@ public class Invaders : MonoBehaviour
 
     private void Update() {
         if (Input.GetKeyDown(KeyCode.K)) {
-            SelectShooter();
+            MoveInvaders();
         }
     }
 
@@ -101,6 +102,9 @@ public class Invaders : MonoBehaviour
     }
 
     private void SelectShooter() {
+        if (peace) {
+            return;
+        }
         bool shooted = false;
         if (UnityEngine.Random.Range(0f, 1f) > 0.5f) {
             int col = UnityEngine.Random.Range(0, 11);

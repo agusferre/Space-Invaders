@@ -14,6 +14,9 @@ public class Invader : MonoBehaviour
         if (other.gameObject.layer == LayerMask.NameToLayer("Laser")) {
             gameObject.SetActive(false);
             Destroy(other.gameObject);
+        } else if (other.gameObject.layer == LayerMask.NameToLayer("Player")) {
+            Destroy(other.gameObject);
+            Destroy(GameObject.Find("Invaders"));
         }
     }
 
