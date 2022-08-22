@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &1015945170126321210
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 229028889359303604, guid: ee5a60a023735470891569f3b3312392, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 229028889359303604, guid: ee5a60a023735470891569f3b3312392, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 229028889359303604, guid: ee5a60a023735470891569f3b3312392, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 229028889359303604, guid: ee5a60a023735470891569f3b3312392, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 229028889359303604, guid: ee5a60a023735470891569f3b3312392, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 229028889359303604, guid: ee5a60a023735470891569f3b3312392, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 229028889359303604, guid: ee5a60a023735470891569f3b3312392, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 229028889359303604, guid: ee5a60a023735470891569f3b3312392, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 229028889359303604, guid: ee5a60a023735470891569f3b3312392, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 229028889359303604, guid: ee5a60a023735470891569f3b3312392, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 229028889359303604, guid: ee5a60a023735470891569f3b3312392, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1095757253250891389, guid: ee5a60a023735470891569f3b3312392, type: 3}
+      propertyPath: m_Size.x
+      value: 1.38
+      objectReference: {fileID: 0}
+    - target: {fileID: 1095757253250891389, guid: ee5a60a023735470891569f3b3312392, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1.375
+      objectReference: {fileID: 0}
+    - target: {fileID: 1592560214038694083, guid: ee5a60a023735470891569f3b3312392, type: 3}
+      propertyPath: m_Name
+      value: Invader2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7404890171547120392, guid: ee5a60a023735470891569f3b3312392, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 3552fe80534aa4da1b04db0df7fb1851, type: 3}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ee5a60a023735470891569f3b3312392, type: 3}
